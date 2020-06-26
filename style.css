@@ -107,7 +107,7 @@ html{
     width: 24%;
     min-height: 500px;
     background-color: #503352;
-    padding-top: 150px;
+    margin-top: 190px;
 }
 
 .coluna h4{
@@ -298,6 +298,7 @@ html{
         min-height: 500px;
         background-color: #503352;
         margin: 0px;
+        padding-top: 150px;
     }
 
     .coluna h4{
