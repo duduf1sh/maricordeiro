@@ -1,0 +1,371 @@
+/*TAGS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #d1cfd1;
+    height: 150px;
+    position: fixed;
+    background-position: top;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    background: url("imgs/logo.png") no-repeat;
+    background-position: center;
+    height: 91px;
+    width: 442px;
+    float: left;
+    margin-top: 25px;
+}
+
+.menu{
+    float: right;
+    margin-top: 35px;
+    padding: 35px 0px;
+    width: 200px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 15px 35px;
+}
+
+.menu a:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.facebook{
+    background: url("imgs/fcb.png") no-repeat;
+}
+
+.linkedin{
+    background: url("imgs/linkedin.png") no-repeat;
+}
+
+.github{
+    background: url("imgs/git.png") no-repeat;
+}
+
+.principal{
+    clear: both;
+    min-height: 500px;
+}
+
+.conteudo{
+    float: right;
+    min-height: 500px;
+    width: 70%;
+    padding-top: 255px;
+    color: #503352;
+    font-size: 14px;
+}
+
+.perfil{
+    text-align: justify;
+}
+
+.experiencia{
+    text-align: justify;
+    padding-top: 80px;
+}
+
+.subir{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #503352;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.atividades{
+    text-align: justify;
+    padding-top: 80px;
+}
+
+.coluna{
+    float:left;
+    width: 24%;
+    min-height: 500px;
+    background-color: #503352;
+    padding-top: 150px;
+}
+
+.coluna h4{
+    color: #ffffff;
+}
+
+.coluna p{
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.foto{
+   
+    background: url("imgs/foto.jpg") no-repeat;
+    height: 280px;
+    width: 100%;
+}
+
+.barra{
+    height: 45px;
+    width: 540px;
+    background-image: linear-gradient(to right, rgba(255, 0, 212, 0), rgba(121, 76, 124,1));
+}
+
+.geral{
+    padding: 20px 10px;
+}
+
+.formacao{
+    padding: 20px 10px;
+}
+
+.idiomas{
+    padding: 20px 10px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.jornal{
+    color: #ffffff;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.divider{
+    height: 4px;
+    background-image: url("imgs/divider.png");
+    background-repeat: no-repeat;
+    margin: 2px 0 20px 0;
+}
+
+.divider2{
+    height: 3px;
+    background-image: url("imgs/divider2.png");
+    background-repeat: no-repeat;
+    margin: 2px 0 20px 0;
+    opacity: 0.5;
+}
+
+.divider3{
+    height: 4px;
+    background-image: url("imgs/divider3.png");
+    background-repeat: no-repeat;
+    margin: 2px 0 20px 0;
+}
+
+@media (max-width: 600px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    header{
+        background-color: #d1cfd1;
+        height: 150px;
+        position: fixed;
+        background-position: top;
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .logo{
+        background: url("imgs/logo-mobile.png") center/300px no-repeat;
+        height: 66px;
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+
+    .menu{
+        float: none;
+        margin-top: 0px;
+        padding: 35px 0px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu a{
+        text-decoration: none;
+        padding: 10px 35px;
+    }
+
+    .menu a:hover{
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+    }
+
+    .facebook{
+        background: url("imgs/facebook-mob.png") no-repeat;
+    }
+
+    .linkedin{
+        background: url("imgs/linkedin-mob.png") no-repeat;
+    }
+
+    .github{
+        background: url("imgs/github-mob.png") no-repeat;
+    }
+
+    .principal{
+        clear: both;
+        min-height: 100px;
+    }
+
+    .conteudo{
+        float: none;
+        min-height: 100px;
+        width: 100%;
+        padding-top: 30px;
+        color: #503352;
+        font-size: 14px;
+    }
+
+    .perfil{
+        padding: 20px 10px;
+        text-align: justify;
+    }
+
+    .experiencia{
+        padding: 20px 10px;
+        text-align: justify;
+        padding-top: 40px;
+    }
+
+    .subir{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #503352;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .atividades{
+        padding: 20px 10px;
+        text-align: justify;
+        padding-top: 40px;
+    }
+
+    .atividades h2{
+        text-align: left;
+    }
+    
+    .coluna{
+        float:none;
+        width: 100%;
+        min-height: 500px;
+        background-color: #503352;
+        margin: 0px;
+    }
+
+    .coluna h4{
+        color: #ffffff;
+    }
+
+    .coluna p{
+        color: #ffffff;
+        font-size: 13px;
+    }
+
+    .foto{
+        background: url("imgs/foto.jpg") center/280px no-repeat;
+        height: 280px;
+        width: 100%;
+    }
+
+    .barra{
+        height: 45px;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(255, 0, 212, 0), rgba(121, 76, 124,1));
+    }
+
+    .geral{
+        padding: 20px 10px;
+    }
+
+    .formacao{
+        padding: 20px 10px;
+    }
+
+    .idiomas{
+        padding: 20px 10px;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .jornal{
+        color: #ffffff;
+        text-align: right;
+        padding-top: 5px;
+        padding-right: 10px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .divider{
+        height: 4px;
+        background-image: url("imgs/divider.png");
+        background-repeat: no-repeat;
+        margin: 2px 0 20px 0;
+    }
+
+    .divider2{
+        height: 3px;
+        background-image: url("imgs/divider.png");
+        background-repeat: no-repeat;
+        margin: 2px 0 20px 0;
+        opacity: 0.5;
+    }
+
+    .divider3{
+        height: 4px;
+        background-image: url("imgs/divider.png");
+        background-repeat: no-repeat;
+        margin: 2px 0 20px 0;
+    }
+}
