@@ -71,9 +71,26 @@ html{
     float: right;
     min-height: 500px;
     width: 70%;
-    padding-top: 255px;
+    padding-top: 50px;
     color: #503352;
     font-size: 14px;
+}
+
+.portfolio h3{
+    background-color: #503352;
+    color: #ffffff;
+    width: 125px;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 190px;
+}
+.portfolio a{
+    text-decoration: none;
+}
+
+.portfolio h3:hover{
+    opacity: 0.5;
 }
 
 .perfil{
@@ -95,6 +112,11 @@ html{
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
+    
+}
+
+.subir:hover{
+    opacity: 0.5;
 }
 
 .atividades{
@@ -120,7 +142,7 @@ html{
 }
 
 .foto{
-   
+    clear: both;
     background: url("imgs/foto.jpg") no-repeat;
     height: 280px;
     width: 100%;
@@ -225,7 +247,7 @@ html{
 
     .menu a{
         text-decoration: none;
-        padding: 10px 65px 7px 18px;
+        padding: 10px 65px 5px 18px;
     }
 
     .menu a:hover{
@@ -259,6 +281,23 @@ html{
         font-size: 14px;
     }
 
+    .portfolio h3{
+        background-color: #503352;
+        color: #ffffff;
+        width: 125px;
+        padding: 10px;
+        border-radius: 5px;
+        float: right;
+        margin-top: 10px;
+    }
+    .portfolio a{
+        text-decoration: none;
+    }
+    
+    .portfolio h3:hover{
+        opacity: 0.5;
+    }
+    
     .perfil{
         padding: 20px 10px;
         text-align: justify;
@@ -282,6 +321,10 @@ html{
         border-radius: 5px;
     }
 
+    .subir:hover{
+        opacity:0.5;
+    }
+
     .atividades{
         padding: 20px 10px;
         text-align: justify;
@@ -297,8 +340,8 @@ html{
         width: 100%;
         min-height: 500px;
         background-color: #503352;
-        margin: 0px;
         padding-top: 150px;
+        margin-top: 0px;
     }
 
     .coluna h4{
@@ -357,7 +400,7 @@ html{
 
     .divider2{
         height: 3px;
-        background-image: url("imgs/divider2.png");
+        background-image: url("imgs/divider.png");
         background-repeat: no-repeat;
         margin: 2px 0 20px 0;
         opacity: 0.5;
