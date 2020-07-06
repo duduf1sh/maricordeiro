@@ -54,12 +54,12 @@ html{
     background: url("imgs/fcb.png") no-repeat;
 }
 
-.insta{
+.instagram{
     background: url("imgs/insta.png") no-repeat;
 }
 
-.github{
-    background: url("imgs/git.png") no-repeat;
+.linkedin{
+    background: url("imgs/linkedin.png") no-repeat;
 }
 
 .principal{
@@ -263,8 +263,8 @@ html{
         background: url("imgs/linkedin-mob.png") no-repeat;
     }
 
-    .github{
-        background: url("imgs/github-mob.png") no-repeat;
+    .instagramh{
+        background: url("imgs/insta-mob.png") no-repeat;
     }
 
     .principal{
