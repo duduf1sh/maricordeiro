@@ -148,6 +148,13 @@ html{
     width: 100%;
 }
 
+.fotoport{
+    clear: both;
+    background: url("imgs/homeoffice.jpg") no-repeat;
+    height: 280px;
+    width: 100%;
+}
+
 .barra{
     height: 45px;
     width: 540px;
