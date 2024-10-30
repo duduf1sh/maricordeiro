@@ -210,6 +210,22 @@ html{
     margin: 2px 0 20px 0;
 }
 
+.image-container {
+  overflow: hidden; /* Oculta a parte fora dos limites */
+  height: 50%; /* Define que apenas metade da altura da imagem será visível */
+  width: 100%; /* Para que a imagem se ajuste à largura total */
+  cursor: pointer; /* Exibe o cursor de mão para indicar que é clicável */
+}
+
+.image-container img {
+  width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
+  transition: all 0.3s ease; /* Suaviza a transição entre estados */
+}
+
+.image-container.open {
+  height: 100%; /* Altera para exibir a imagem inteira quando clicada */
+}
+
 @media (max-width: 600px){
 
     *{
@@ -422,20 +438,3 @@ html{
         margin: 2px 0 20px 0;
     }
 }
-
-.image-container {
-  overflow: hidden; /* Oculta a parte fora dos limites */
-  height: 50%; /* Define que apenas metade da altura da imagem será visível */
-  width: 100%; /* Para que a imagem se ajuste à largura total */
-  cursor: pointer; /* Exibe o cursor de mão para indicar que é clicável */
-}
-
-.image-container img {
-  width: 100%; /* Garante que a imagem ocupe 100% da largura do contêiner */
-  transition: all 0.3s ease; /* Suaviza a transição entre estados */
-}
-
-.image-container.open {
-  height: 100%; /* Altera para exibir a imagem inteira quando clicada */
-}
-
